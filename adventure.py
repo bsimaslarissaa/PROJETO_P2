@@ -84,6 +84,6 @@ def interacao_balconista():
 criacao_personagem()
 interacao_balconista()
 
-#### TESTE LARISSA
+
 
 
