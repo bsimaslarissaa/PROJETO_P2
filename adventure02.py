@@ -1,3 +1,4 @@
+
 import time
 import random
 
@@ -104,7 +105,7 @@ def cena_loja():
     
     mostrar_status()
     
-    # Nova parte adicionada para continuar o jogo
+    
     print("\nAgora equipado, você está pronto para aventurar-se na caverna!")
     time.sleep(2)
     print("\nVocê segue em direção ao sul, onde a caverna do tesouro supostamente está localizada...")
@@ -112,7 +113,7 @@ def cena_loja():
     print("\nApós algumas horas de caminhada, você avista a entrada sombria da caverna.")
     input("\nPressione Enter para entrar na caverna...")
     
-    # Próxima cena do jogo entrando na caverna 
+   
     entrada_caverna()
 
 def entrada_caverna():
@@ -122,7 +123,6 @@ def entrada_caverna():
     print("\nDe repente, um Dragão salta da escuridão para atacá-lo!")
     time.sleep(2)
     
-    # Batalha com o Dragrao
     dragao = {"HP": 10, "ATK": 3}
     
     while personagem["HP"] > 0 and dragao["HP"] > 0:
