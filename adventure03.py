@@ -1,6 +1,6 @@
 import time
 import random
-from colorama import init, Fore, Back, Style
+from colorama import init, Fore, Back, Style # antes de rodar o código, instale o colorama: pip install colorama
 init(autoreset=True)
 
 maximo_xp = 20
