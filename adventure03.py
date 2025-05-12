@@ -132,6 +132,24 @@ def interacao_balconista():
 def cena_loja():
     escrever_texto("\nVocê entra na loja de equipamentos 'Armas & Armaduras' e é imediatamente abordado pelo vendedor.\n", Fore.GREEN, 0.05)
     
+    imagem_loja = r""" |\                     /)
+                     /\_\\__               (_//
+                    |   `>\-`     _._       //`)
+                     \ /` \\  _.-`:::`-._  //
+                      `    \|`    :::    `|/
+                            |     :::     |
+                            |.....:::.....|
+                            |:::::::::::::|
+                            |     :::     |
+                            \     :::     /
+                             \    :::    /
+                              `-. ::: .-'
+                               //`:::`\\
+                              //   '   \\                                
+                            |/          \| """  
+    
+    escrever_texto(imagem_loja)  
+
     escrever_texto("\n-Vendedor: Parabéns, sortudo! Você é o nosso quadragésimo cliente do dia e ganhou um item grátis!\n", Fore.BLUE, 0.05)
     
     escrever_texto("\nEscolha seu item:\n\n", Fore.GREEN, 0.05)
@@ -168,13 +186,29 @@ def cena_loja():
     entrada_caverna()
 
 def entrada_caverna():
+
     escrever_texto("\n=== ENTRADA DA CAVERNA ===", Fore.RED, 0.05)
+    
+    #imagem_caverna =
 
     escrever_texto("\nVocê adentra a caverna úmida e escura. O ar é pesado e você sente que não está sozinho...", Fore.GREEN, 0.05)
  
     escrever_texto("\nDe repente, um Dragão salta da escuridão para atacá-lo!\n", Fore.GREEN, 0.05)
 
-    
+    imagem_dragao = r"""
+                        _)                   (_
+                         _) \ /\%/\ /\_/\ / (_
+                         _) \\(0 0) (0 0)// (_
+                Arte de )_ -- \(oo) (oo)/ -- _(
+               VampLadee )_ / /\\__,__//\ \ _(
+                            )_ / --;-- \ _(
+                          *. ( ( )) (( ) ) .*
+                         '...(____)zz(____)...'
+                                  / \
+                                    """
+
+    escrever_texto(imagem_dragao)
+
     dragao = {"HP": 10, "ATK": 3}
     
     while personagem["HP"] > 0 and dragao["HP"] > 0:
@@ -210,3 +244,10 @@ def entrada_caverna():
 criacao_personagem()
 interacao_balconista()
 cena_loja()
+
+
+
+
+
+
+
