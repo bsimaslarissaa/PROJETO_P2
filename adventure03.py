@@ -11,8 +11,8 @@ personagem = {
     "Nível": 1,
     "HP": 10,
     "ATK": 2,
-    "XP": f"{xp_atual}/{maximo_xp}",
-    "Classe": "Guerreiro"
+    "XP": 0,
+    "Classe": 'Guerreiro'  
 }
 
 def escrever_texto(texto, cor ='', velocidade = 0.04):
@@ -77,7 +77,18 @@ def criacao_personagem():
     else:
         escrever_texto("\nvocê pulou a introdução\n", Fore.RED)
 
-
+def ganhar_xp(quantidade):
+        global maximo_xp
+        personagem["XP"] += quantidade
+        while personagem["XP"] >= maximo_xp:
+              personagem["XP"] -= maximo_xp
+              personagem["Nível"] += 1
+              personagem["HP"] += 5  # Aumenta HP ao subir de nível
+              personagem["ATK"] += 1  # Aumenta ATK ao subir de nível
+              maximo_xp = int(maximo_xp * 1.5)  # XP necessário aumenta por níve
+        escrever_texto(f"\n*** PARABÉNS! {personagem['Nome']} subiu para o Nível {personagem['Nível']}! ***\n", Fore.YELLOW, 0.009)
+        escrever_texto(f"Novo HP: {personagem['HP']}\nNovo ATK: {personagem['ATK']}\nXP para próximo nível: {maximo_xp}\n", Fore.YELLOW, 0.009)
+        escrever_texto(f"\nXP Atual: {personagem['XP']}/{maximo_xp}\n",Fore.YELLOW, 0.009)
 
 
 
@@ -132,7 +143,9 @@ def interacao_balconista():
 def cena_loja():
     escrever_texto("\nVocê entra na loja de equipamentos 'Armas & Armaduras' e é imediatamente abordado pelo vendedor.\n", Fore.GREEN, 0.05)
     
-    imagem_loja = r""" |\                     /)
+    imagem_loja = r""" 
+                   
+                       |\                     /)
                      /\_\\__               (_//
                     |   `>\-`     _._       //`)
                      \ /` \\  _.-`:::`-._  //
@@ -146,8 +159,8 @@ def cena_loja():
                               `-. ::: .-'
                                //`:::`\\
                               //   '   \\                                
-                            |/          \| """  
-    
+                             |/         \| 
+                   """ 
     escrever_texto(imagem_loja)  
 
     escrever_texto("\n-Vendedor: Parabéns, sortudo! Você é o nosso quadragésimo cliente do dia e ganhou um item grátis!\n", Fore.BLUE, 0.05)
@@ -196,16 +209,17 @@ def entrada_caverna():
     escrever_texto("\nDe repente, um Dragão salta da escuridão para atacá-lo!\n", Fore.GREEN, 0.05)
 
     imagem_dragao = r"""
+    
                         _)                   (_
                          _) \ /\%/\ /\_/\ / (_
                          _) \\(0 0) (0 0)// (_
-                Arte de )_ -- \(oo) (oo)/ -- _(
-               VampLadee )_ / /\\__,__//\ \ _(
+                        )_ -- \(oo) (oo)/ -- _(
+                         )_ / /\\__,__//\ \ _(
                             )_ / --;-- \ _(
                           *. ( ( )) (( ) ) .*
                          '...(____)zz(____)...'
                                   / \
-                                    """
+                                    """ 
 
     escrever_texto(imagem_dragao)
 
@@ -234,7 +248,7 @@ def entrada_caverna():
     
     if personagem["HP"] > 0:
         escrever_texto("\nVocê venceu o Dragão! e o tesouro secreto é todo seu!\n", Fore.RED, 0.03)
-        
+        ganhar_xp(25)  # Exemplo: dragão dá 25 de XP
     else:
         escrever_texto("\nVocê foi derrotado pelo Dragão... Fim do jogo.", Fore.GREEN, 0.03)
         exit()
