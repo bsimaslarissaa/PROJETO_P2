@@ -84,7 +84,7 @@ def ganhar_xp(quantidade):
               personagem["XP"] -= maximo_xp
               personagem["Nível"] += 1
               personagem["HP"] += 5  # Aumenta HP ao subir de nível
-              personagem["ATK"] += 1  # Aumenta ATK ao subir de nível
+              personagem["ATK"] += 2  # Aumenta ATK ao subir de nível
               maximo_xp = int(maximo_xp * 1.5)  # XP necessário aumenta por níve
         escrever_texto(f"\n*** PARABÉNS! {personagem['Nome']} subiu para o Nível {personagem['Nível']}! ***\n", Fore.YELLOW, 0.009)
         escrever_texto(f"Novo HP: {personagem['HP']}\nNovo ATK: {personagem['ATK']}\nXP para próximo nível: {maximo_xp}\n", Fore.YELLOW, 0.009)
