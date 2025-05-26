@@ -189,14 +189,52 @@ def cena_loja():
     
     escrever_texto("\nVocê segue em direção ao sul, onde a caverna do tesouro supostamente está localizada...", Fore.GREEN, 0.05)
     time.sleep(0.4)
-
-    escrever_texto("\nApós algumas horas de caminhada, você avista a entrada sombria da caverna.\n", Fore.GREEN, 0.05)
-
-    escrever_texto("\npressione enter para entrar na caverna...", Fore.RED, 0.05)
-    input(" ")
     
-   
-    entrada_caverna()
+
+    combate_inicial()
+
+def combate_inicial():
+        escrever_texto("\nApós sair da loja, você segue para a entrada da caverna...\n", Fore.GREEN, 0.05)
+        escrever_texto("No caminho, um lobo faminto aparece e bloqueia sua passagem!\n", Fore.GREEN, 0.05)
+
+        inimigo = { "Nome": "Lobo Selvagem",
+                     "HP": 8,
+                     "ATK": 2,
+                }
+        while inimigo["HP"] > 0 and personagem["HP"] > 0:
+              escrever_texto(f"\n{inimigo['Nome']} - HP: {inimigo['HP']}\n", Fore.RED, 0.05)
+              escrever_texto(f"{personagem['Nome']} - HP: {personagem['HP']}\n", Fore.YELLOW, 0.05)           
+              escrever_texto("\nDigite 1 para atacar ou 0 para fugir: ", Fore.RED, 0.05)         
+          
+              acao = input("")
+
+              if acao == "1":
+           
+                 dano = personagem["ATK"] + random.randint(0, 2)
+                 inimigo["HP"] -= dano
+                 escrever_texto(f"\nVocê atacou e causou {dano} de dano!\n", Fore.GREEN, 0.05)
+
+                 if inimigo["HP"] > 0:
+                
+                    dano_inimigo = inimigo["ATK"] + random.randint(0, 1)
+                    personagem["HP"] -= dano_inimigo
+                    escrever_texto(f"O {inimigo['Nome']} atacou e causou {dano_inimigo} de dano!\n", Fore.RED, 0.05)
+
+                 else:    
+                  
+                     escrever_texto("\nVocê fugiu do combate!\n", Fore.GREEN, 0.05)
+                     return
+                 if personagem["HP"] <= 0:
+                    escrever_texto("\nVocê foi derrotado pelo lobo...\nFIM DE JOGO!\n", Fore.RED, 0.05)
+                    exit()
+                 else:                                                                      
+                    escrever_texto("\nVocê derrotou o lobo e continua sua jornada!\n", Fore.GREEN, 0.05)   
+                    ganhar_xp (10)
+
+                    escrever_texto("\nApós algumas horas de caminhada, você avista a entrada sombria da caverna.\n", Fore.GREEN, 0.05)
+                    escrever_texto("\npressione enter para entrar na caverna...", Fore.RED, 0.05)
+                    input(" ")
+                    entrada_caverna()
 
 def entrada_caverna():
 
