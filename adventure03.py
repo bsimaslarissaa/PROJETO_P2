@@ -249,10 +249,75 @@ def entrada_caverna():
     if personagem["HP"] > 0:
         escrever_texto("\nVocê venceu o Dragão! e o tesouro secreto é todo seu!\n", Fore.RED, 0.03)
         ganhar_xp(25)  # Exemplo: dragão dá 25 de XP
+        conquista_do_tesouro()
     else:
         escrever_texto("\nVocê foi derrotado pelo Dragão... Fim do jogo.", Fore.GREEN, 0.03)
         exit()
 
+def conquista_do_tesouro():
+    
+    escrever_texto("\nApós vencer o dragão que habitava a caverna, você caminha mais adentro do território desconhecido, procurando o tesouro que veio encontrar.", Fore.GREEN, 0.03)
+
+    escrever_texto("\nAo chegar nas partes mais profundas da caverna, você encontra uma área cheia de baús com grande fortuna dentro.", Fore.GREEN, 0.03)
+
+    escrever_texto("\nCom tudo isso, seu objetivo principal está mais próximo do que nunca!", Fore.GREEN, 0.03)
+
+    escrever_texto("\nNo seu caminho de volta, você repara sons estranhos vindo dos arbustos e das árvores.", Fore.GREEN, 0.03)
+
+    escrever_texto("\nQuando você para de caminhar, esperando as presença te observando mostrar sua face, um homem aparece em sua frente.", Fore.GREEN, 0.03)
+
+    
+    escrever_texto("\nBandido: Quem diria. Conseguiu notar minha prensença. Estou impressionado.", Fore.BLUE, 0.05)
+
+    time.sleep(0.2)
+
+    escrever_texto("\nDigite 1 para perguntar quem ele é ou 0 para continuar em silêncio. \nsua escolha: ", Fore.RED, 0.05)
+
+    escolha = input("")
+
+    if escolha == '1':
+        escrever_texto("\n-Bandido: Bem, já que você pediu com tanta educação...\n", Fore.BLUE, 0.05)
+       
+        escrever_texto("\n-Bandido Isaac: Me chamo Isaac. Eu recebi informação de que alguém foi enfrentar o dragão de uma caverna próxima.", Fore.BLUE, 0.05)
+        
+        escrever_texto(" - Imagine a minha surpresa quando eu vi o corpo morto do dragão perto da entrada. Quem não usarua tal oportunidade para pegar o tesouro das mãos do vitorioso quando ferido?\n", Fore.BLUE, 0.05)
+       
+        escrever_texto("\n-Bandido Isaac: Desculpa, cara. Não é nada pessoal. Eu simplemsmente não posso deixar essa oportunidade passar.\n", Fore.BLUE, 0.05)
+
+    else:
+        escrever_texto("\n-Bandido Isaac: Não é uma pessoa de muitas palavras, né? Bom, por mim, tudo bem. Eu só preciso do dinheiro, afinal.", Fore.BLUE, 0.05)
+
+    Isaac = {"HP": 7, "ATK": 2}
+
+    while personagem["HP"] > 0 and Isaac["HP"] > 0:
+        escrever_texto("\n1. Atacar\n", Fore.RED, 0.01)
+        escrever_texto("\n2. Tentar fugir\n ", Fore.RED, 0.01)
+        escrever_texto("\no que você faz?", Fore.RED, 0.01)
+        escolha = input(" ")
+        
+        if escolha == "1":
+            dano = random.randint(1, personagem["ATK"])
+            Isaac["HP"] -= dano
+            escrever_texto(f"\nVocê encontra uma abertura e ataca o bandido, causando {dano} de dano!\n", Fore.RED, 0.03)
+
+            if Isaac["HP"] > 0:
+                personagem["HP"] -= Isaac["ATK"]
+                escrever_texto(f"\nIsaac contra-ataca, causando {Isaac['ATK']} de dano!\n", Fore.RED, 0.03)
+                escrever_texto(f"\nSeu HP: {personagem['HP']}\n", Fore.RED, 0.03)
+        elif escolha == "2":
+            escrever_texto("\nVocê tenta fugir, mas Isaac tê impede de  recuar!\n", Fore.RED, 0.03)
+            
+            escrever_texto("\n-Bandido Isaac: Como se eu fosse deixar você fugir.", Fore.BLUE, 0.05)
+        else:
+            escrever_texto("\nOpção inválida! Isaac se aproveita da abertura para atacar!\n", Fore.RED, 0.03)
+            personagem["HP"] -= Isaac["ATK"]
+    
+    if personagem["HP"] > 0:
+        escrever_texto("\nVocê derrotou Isaac! O tesouro continua em sua posse!\n", Fore.RED, 0.03)
+        ganhar_xp(15)  
+    else:
+        escrever_texto("\nVocê foi derrotado por Isaac, e teve seu tesouro roubado... Fim do jogo.", Fore.GREEN, 0.03)
+        exit() 
 
 # Iniciar o jogo
 criacao_personagem()
