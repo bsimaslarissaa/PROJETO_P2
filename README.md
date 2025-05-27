@@ -12,7 +12,7 @@ Certo dia, você entrou em um bar no centro da cidade, onde ouviu uma história 
 
 ## Manual de como jogar, incluindo comandos disponíveis:
 
-COMO JOGAR:
+🎮 COMO JOGAR:
 
 Você controla um caçador de recompensas em busca de tesouros e fama.
 
