@@ -101,7 +101,7 @@ Style (para estilos como negrito)
 
 init(autoreset=True) (para redefinir automaticamente as cores após cada impressão).
 
-Dicionários - Para armazenar os atributos do personagem (personagem), inimigos (inimigo, dragao, Isaac), etc.
+Dicionários - Para armazenar os atributos do personagem (personagem), inimigos (dragao/Isaac), etc.
 
 Funções personalizadas - Como escrever_texto() e descricao() para imprimir texto com efeito de digitação.
 
