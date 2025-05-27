@@ -46,6 +46,24 @@ XP (Experiência): Acumule para subir de nível.
 
 Nível: Quanto maior, mais forte você fica.
 
+🌟 Dicas: 
+
+✅ Escolha equipamentos sabiamente (Espada aumenta ATK, Armadura aumenta HP).
+
+✅ Cuidado com inimigos – mesmo os mais fracos podem ser perigosos.
+
+✅ Subir de nível aumenta seu HP máximo e ATK.
+
+✅ Sempre verifique seu status antes de combates difíceis.
+
+🎯 Objetivo: 
+
+Derrote o Dragão da Caverna e encontre o tesouro escondido.
+
+Sobreviva aos perigos e complete sua missão!
+
+Boa sorte, caçador! 🏆⚔️
+
 ## Instruções detalhadas de instalação, incluindo requisitos e dependências:
 
 O código não usa bancos de dados ou arquivos externos (todos os dados são armazenados em variáveis/dicionários).
