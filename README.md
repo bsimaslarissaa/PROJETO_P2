@@ -43,6 +43,8 @@ Estruturas de controle - Loops (while) para combate e condicionais (if/else) par
 
 Input do usuário - Captura de escolhas via input().
 
+## Manual de como jogar, incluindo comandos disponíveis:
+
 ## Descrição das principais funcionalidades implementadas: 
 
 Sistema de XP e level-up - Implementado em ganhar_xp().
