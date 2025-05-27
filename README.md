@@ -7,9 +7,9 @@ Larissa Barbosa Simas - Matrícula: 202512476
 
 Jhean Monteiro da Silva - Matrícula: 202512499
 
-Cintia Mendes Bernardo - Matrícula:202512564
+Cintia Mendes Bernardo - Matrícula: 202512564
 
-Lorenzo Sampaio de Guadelupe - Matrícula - 202512519
+Lorenzo Sampaio de Guadelupe - Matrícula: 202512519
 
 ## Professor: 👨‍🏫❤️
 
