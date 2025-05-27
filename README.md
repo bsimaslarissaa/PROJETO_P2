@@ -18,8 +18,12 @@ Random - Biblioteca padrão do Python usada para gerar números aleatórios (com
 Colorama - Biblioteca externa usada para adicionar cores ao texto no terminal (instalada via pip install colorama).
 
 Principais componentes usados:
+
 Fore (para cores do texto)
+
 Back (para cores de fundo)
+
 Style (para estilos como negrito)
+
 init(autoreset=True) (para redefinir automaticamente as cores após cada impressão).
 
