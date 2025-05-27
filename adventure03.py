@@ -171,7 +171,7 @@ def cena_loja():
 
     escrever_texto("0. Malha de Ferro (+10 HP) \n", Fore.GREEN, 0.05)
 
-    escrever_texto("Sua escolha: (digite 1 para escolher a Espada ou 0 para escolher a Malha" , Fore.RED, 0.02)
+    escrever_texto("Sua escolha: (digite 1 para escolher a Espada ou 0 para escolher a Malha: )" , Fore.RED, 0.02)
 
     escolha = input(" ")
 
