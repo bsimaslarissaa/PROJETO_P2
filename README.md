@@ -27,3 +27,19 @@ Style (para estilos como negrito)
 
 init(autoreset=True) (para redefinir automaticamente as cores após cada impressão).
 
+Dicionários - Para armazenar os atributos do personagem (personagem), inimigos (inimigo, dragao, Isaac), etc.
+
+Funções personalizadas - Como escrever_texto() e descricao() para imprimir texto com efeito de digitação.
+
+Estruturas de controle - Loops (while) para combate e condicionais (if/else) para escolhas do jogador.
+
+Input do usuário - Captura de escolhas via input().
+
+## Descrição das principais funcionalidades implementadas: 
+
+Sistema de XP e level-up - Implementado em ganhar_xp().
+
+Combate por turnos - Lógica de ataque/fuga com dano aleatório.
+
+Narrativa interativa - Escolhas que afetam o fluxo da história.
+
