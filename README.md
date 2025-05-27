@@ -121,6 +121,29 @@ Narrativa interativa - Escolhas que afetam o fluxo da história.
 
 Todos os membros contribuiram de forma positiva com o trabalho. 
 
+Larissa Barbosa:
+
+ 1. Contribuiu com a criação do repositório do GitHub e compartilhamento entre os colegas e o professor. 
+
+ 2. Realizou também as ediçoes no arquivo README.md com as instruções e informações sobre o jogo.
+
+ 3. Em relação ao código, acrescentou a parte da ''Caverna e Combate com o Dragão'' .
+
+Jhean Monteiro:
+
+1. Criou a introdução do personagem.
+   
+2. Realizou a primeira versão do código, atribuindo status ao personagem e adicionado a cena do bar.
+   
+3. Adicionou a cena da loja.
+   
+4. Coloquei cores nos textos pra diferenciar as falas.
+   
+4. Inseriu ASCII arts ( participação, da Cintia ).
+
+Lorenzo: 
+
+1. Contribiu no código adicionando o combate contra o bandido. 
 
 
 ## 📜 Screenshots do jogo em funcionamento (com explicações):
