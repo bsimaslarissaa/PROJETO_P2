@@ -11,7 +11,7 @@ Cintia Mendes Bernardo - Matrícula:202512564
 
 Lorenzo Sampaio de Guadelupe - Matrícula - 202512519
 
-## Professor: 👨‍🏫
+## Professor: 👨‍🏫❤️
 
 João Batista Coelho Junior
 
