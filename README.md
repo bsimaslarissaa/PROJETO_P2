@@ -11,6 +11,10 @@ Cintia Mendes Bernardo - Matrícula:202512564
 
 Lorenzo Sampaio de Guadelupe - Matrícula - 202512519
 
+## Professor: 👨‍🏫
+
+João Batista Coelho Junior
+
 ## Título: Caçador de Recompensas.
 
 Você é um caçador de recompensas que viaja em busca de moedas e itens raros.
