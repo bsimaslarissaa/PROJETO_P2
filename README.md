@@ -1,7 +1,7 @@
 # PROJETO_P2
 ## Jogo de Text Adventure em Python 🎮 
 
-## Alunos: 👩‍🎓👩‍🎓👨‍🎓👨‍🎓
+## Alunos: 👩‍🎓👨‍🎓👩‍🎓👨‍🎓
 
 Larissa Barbosa Simas - Matrícula: 202512476
 
