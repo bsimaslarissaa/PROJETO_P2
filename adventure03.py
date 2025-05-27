@@ -83,12 +83,15 @@ def ganhar_xp(quantidade):
         while personagem["XP"] >= maximo_xp:
               personagem["XP"] -= maximo_xp
               personagem["Nível"] += 1
-              personagem["HP"] += 5  # Aumenta HP ao subir de nível
-              personagem["ATK"] += 2  # Aumenta ATK ao subir de nível
-              maximo_xp = int(maximo_xp * 1.5)  # XP necessário aumenta por níve
-        escrever_texto(f"\n*** PARABÉNS! {personagem['Nome']} subiu para o Nível {personagem['Nível']}! ***\n", Fore.YELLOW, 0.009)
-        escrever_texto(f"Novo HP: {personagem['HP']}\nNovo ATK: {personagem['ATK']}\nXP para próximo nível: {maximo_xp}\n", Fore.YELLOW, 0.009)
-        escrever_texto(f"\nXP Atual: {personagem['XP']}/{maximo_xp}\n",Fore.YELLOW, 0.009)
+              personagem["HP"] += 7  # Aumenta HP ao subir de nível
+              personagem["ATK"] += 3  # Aumenta ATK ao subir de nível
+              maximo_xp = int(maximo_xp * 1.5)  # XP necessário aumenta por nível
+              if personagem["XP"] >= maximo_xp:
+                 escrever_texto(f"\n*** PARABÉNS! {personagem['Nome']} subiu para o Nível {personagem['Nível']}! ***\n", Fore.YELLOW, 0.009)
+                 escrever_texto(f"Novo HP: {personagem['HP']}\nNovo ATK: {personagem['ATK']}\nXP para próximo nível: {maximo_xp}\n", Fore.YELLOW, 0.009)
+                 escrever_texto(f"\nXP Atual: {personagem['XP']}/{maximo_xp}\n",Fore.YELLOW, 0.009)
+              else:
+                  mostrar_status()
 
 
 
@@ -171,7 +174,7 @@ def cena_loja():
 
     escrever_texto("0. Malha de Ferro (+10 HP) \n", Fore.GREEN, 0.05)
 
-    escrever_texto("Sua escolha: (digite 1 para escolher a Espada ou 0 para escolher a Malha" , Fore.RED, 0.02)
+    escrever_texto("Sua escolha: (digite 1 para escolher a Espada ou 0 para escolher a Malha:  " , Fore.RED, 0.02)
 
     escolha = input(" ")
 
@@ -218,23 +221,21 @@ def combate_inicial():
                 
                     dano_inimigo = inimigo["ATK"] + random.randint(0, 1)
                     personagem["HP"] -= dano_inimigo
-                    escrever_texto(f"O {inimigo['Nome']} atacou e causou {dano_inimigo} de dano!\n", Fore.RED, 0.05)
+                    escrever_texto(f"O {inimigo['Nome']} atacou e causou {dano_inimigo} de dano!\n", Fore.RED, 0.05) 
 
-                 else:    
-                  
+                    if personagem["HP"] <= 0:
+                        escrever_texto("\nVocê foi derrotado pelo lobo...\nFIM DE JOGO!\n", Fore.RED, 0.05)
+                        exit()
+                 elif  inimigo["HP"] <= 0:                                                                 
+                        escrever_texto("\nVocê derrotou o lobo e continua sua jornada!\n", Fore.GREEN, 0.05)   
+                        ganhar_xp (10)
+                        escrever_texto("\nApós algumas horas de caminhada, você avista a entrada sombria da caverna.\n", Fore.GREEN, 0.05)
+                        escrever_texto("\npressione enter para entrar na caverna...", Fore.RED, 0.05)
+                        input(" ")
+                        entrada_caverna()
+              else: 
                      escrever_texto("\nVocê fugiu do combate!\n", Fore.GREEN, 0.05)
-                     return
-                 if personagem["HP"] <= 0:
-                    escrever_texto("\nVocê foi derrotado pelo lobo...\nFIM DE JOGO!\n", Fore.RED, 0.05)
-                    exit()
-                 else:                                                                      
-                    escrever_texto("\nVocê derrotou o lobo e continua sua jornada!\n", Fore.GREEN, 0.05)   
-                    ganhar_xp (10)
-
-                    escrever_texto("\nApós algumas horas de caminhada, você avista a entrada sombria da caverna.\n", Fore.GREEN, 0.05)
-                    escrever_texto("\npressione enter para entrar na caverna...", Fore.RED, 0.05)
-                    input(" ")
-                    entrada_caverna()
+                     entrada_caverna()
 
 def entrada_caverna():
 
@@ -352,7 +353,9 @@ def conquista_do_tesouro():
     
     if personagem["HP"] > 0:
         escrever_texto("\nVocê derrotou Isaac! O tesouro continua em sua posse!\n", Fore.RED, 0.03)
-        ganhar_xp(15)  
+        ganhar_xp(15) 
+        escrever_texto("\nVocê Chegou ao Final do Jogo! Parabéns! ") 
+        exit()
     else:
         escrever_texto("\nVocê foi derrotado por Isaac, e teve seu tesouro roubado... Fim do jogo.", Fore.GREEN, 0.03)
         exit() 
@@ -361,10 +364,3 @@ def conquista_do_tesouro():
 criacao_personagem()
 interacao_balconista()
 cena_loja()
-
-
-
-
-
-
-
