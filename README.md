@@ -12,6 +12,12 @@ Certo dia, você entrou em um bar no centro da cidade, onde ouviu uma história 
 
 ## Instruções detalhadas de instalação, incluindo requisitos e dependências:
 
+O código não usa bancos de dados ou arquivos externos (todos os dados são armazenados em variáveis/dicionários).
+
+Não há conexão com APIs ou redes.
+
+Para executar o código, basta instalar o colorama (pip install colorama) e rodar em qualquer interpretador Python.
+
 ## Ferramentas e bibliotecas utilizadas: 
 Time - Biblioteca padrão do Python usada para pausar a execução com time.sleep().
 
