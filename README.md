@@ -10,6 +10,8 @@ De vila em vila, aceita qualquer contrato, desde caçar bandidos até lidar com 
 
 Certo dia, você entrou em um bar no centro da cidade, onde ouviu uma história sobre um tesouro secreto capaz de mudar sua vida para sempre. a história era mais ou menos assim...
 
+## Instruções detalhadas de instalação, incluindo requisitos e dependências:
+
 ## Ferramentas e bibliotecas utilizadas: 
 Time - Biblioteca padrão do Python usada para pausar a execução com time.sleep().
 
