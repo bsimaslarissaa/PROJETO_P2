@@ -10,10 +10,10 @@ De vila em vila, aceita qualquer contrato, desde caçar bandidos até lidar com 
 
 Certo dia, você entrou em um bar no centro da cidade, onde ouviu uma história sobre um tesouro secreto capaz de mudar sua vida para sempre. a história era mais ou menos assim...
 
-# Ferramentas e bibliotecas utilizadas: 
-time - Biblioteca padrão do Python usada para pausar a execução com time.sleep().
-random - Biblioteca padrão do Python usada para gerar números aleatórios (como em combates).
-colorama - Biblioteca externa usada para adicionar cores ao texto no terminal (instalada via pip install colorama).
+## Ferramentas e bibliotecas utilizadas: 
+Time - Biblioteca padrão do Python usada para pausar a execução com time.sleep().
+Random - Biblioteca padrão do Python usada para gerar números aleatórios (como em combates).
+Colorama - Biblioteca externa usada para adicionar cores ao texto no terminal (instalada via pip install colorama).
 Principais componentes usados:
 Fore (para cores do texto)
 Back (para cores de fundo)
