@@ -22,15 +22,15 @@ Em combates, escolha entre atacar (1) ou fugir (0).
 
 Ganhe XP derrotando inimigos para subir de nível e ficar mais forte.
 
-🎮 COMANDOS PRINCIPAIS:
+🎮 Comandos principais:
 
-📜 MENU DE INTERAÇÃO:
+📜 Menu de interação:
 
 1 = Aceitar / Confirmar / Atacar
 
 0 = Recusar / Fugir / Ignorar
 
-⚔️ COMBATE:
+⚔️ Combate:
 
 1 = Atacar (causa dano ao inimigo)
 
