@@ -119,6 +119,8 @@ Narrativa interativa - Escolhas que afetam o fluxo da história.
 
 ## 📜 Divisão de tarefas entre os membros do grupo:
 
+Todos os membros contribuiram de forma positiva com o trabalho. 
+
 
 
 ## 📜 Screenshots do jogo em funcionamento (com explicações):
