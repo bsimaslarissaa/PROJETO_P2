@@ -16,6 +16,7 @@ Time - Biblioteca padrão do Python usada para pausar a execução com time.slee
 Random - Biblioteca padrão do Python usada para gerar números aleatórios (como em combates).
 
 Colorama - Biblioteca externa usada para adicionar cores ao texto no terminal (instalada via pip install colorama).
+
 Principais componentes usados:
 Fore (para cores do texto)
 Back (para cores de fundo)
