@@ -12,6 +12,30 @@ Certo dia, você entrou em um bar no centro da cidade, onde ouviu uma história 
 
 ## Manual de como jogar, incluindo comandos disponíveis:
 
+COMO JOGAR:
+
+Você controla um caçador de recompensas em busca de tesouros e fama.
+
+Tome decisões digitando "1" ou "0" quando solicitado.
+
+Em combates, escolha entre atacar (1) ou fugir (0).
+
+Ganhe XP derrotando inimigos para subir de nível e ficar mais forte.
+
+🎮 COMANDOS PRINCIPAIS:
+
+📜 MENU DE INTERAÇÃO:
+
+1 = Aceitar / Confirmar / Atacar
+
+0 = Recusar / Fugir / Ignorar
+
+⚔️ COMBATE:
+
+1 = Atacar (causa dano ao inimigo)
+
+0 = Tentar fugir (nem sempre funciona)
+
 ## Instruções detalhadas de instalação, incluindo requisitos e dependências:
 
 O código não usa bancos de dados ou arquivos externos (todos os dados são armazenados em variáveis/dicionários).
