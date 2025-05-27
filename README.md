@@ -12,7 +12,9 @@ Certo dia, você entrou em um bar no centro da cidade, onde ouviu uma história 
 
 ## Ferramentas e bibliotecas utilizadas: 
 Time - Biblioteca padrão do Python usada para pausar a execução com time.sleep().
+
 Random - Biblioteca padrão do Python usada para gerar números aleatórios (como em combates).
+
 Colorama - Biblioteca externa usada para adicionar cores ao texto no terminal (instalada via pip install colorama).
 Principais componentes usados:
 Fore (para cores do texto)
