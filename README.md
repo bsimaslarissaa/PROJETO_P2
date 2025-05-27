@@ -116,3 +116,9 @@ Combate por turnos - Lógica de ataque/fuga com dano aleatório.
 
 Narrativa interativa - Escolhas que afetam o fluxo da história.
 
+
+## 📜 Divisão de tarefas entre os membros do grupo:
+
+
+
+## 📜 Screenshots do jogo em funcionamento (com explicações):
