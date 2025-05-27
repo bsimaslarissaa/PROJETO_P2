@@ -137,9 +137,9 @@ Jhean Monteiro:
    
 3. Adicionou a cena da loja.
    
-4. Coloquei cores nos textos pra diferenciar as falas.
+4. Colocou cores nos textos pra diferenciar as falas.
    
-4. Inseriu ASCII arts ( participação, da Cintia ).
+4. Inseriu ASCII arts ( com participação, da Cintia ).
 
 Lorenzo: 
 
