@@ -76,7 +76,7 @@ Sobreviva aos perigos e complete sua missão!
 
 Boa sorte, caçador! 🏆⚔️
 
-## Instruções detalhadas de instalação, incluindo requisitos e dependências: 📜
+## 📜 Instruções detalhadas de instalação, incluindo requisitos e dependências: 
 
 O código não usa bancos de dados ou arquivos externos (todos os dados são armazenados em variáveis/dicionários).
 
@@ -84,7 +84,7 @@ Não há conexão com APIs ou redes.
 
 Para executar o código, basta instalar o colorama (pip install colorama) e rodar em qualquer interpretador Python.
 
-## Ferramentas e bibliotecas utilizadas: 📜
+## 📜 Ferramentas e bibliotecas utilizadas: 
 Time - Biblioteca padrão do Python usada para pausar a execução com time.sleep().
 
 Random - Biblioteca padrão do Python usada para gerar números aleatórios (como em combates).
@@ -109,8 +109,7 @@ Estruturas de controle - Loops (while) para combate e condicionais (if/else) par
 
 Input do usuário - Captura de escolhas via input().
 
-## Descrição das principais funcionalidades implementadas: 📜
-
+## 📜 Descrição das principais funcionalidades implementadas: 
 Sistema de XP e level-up - Implementado em ganhar_xp().
 
 Combate por turnos - Lógica de ataque/fuga com dano aleatório.
