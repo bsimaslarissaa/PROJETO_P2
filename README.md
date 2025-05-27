@@ -36,6 +36,16 @@ Ganhe XP derrotando inimigos para subir de nível e ficar mais forte.
 
 0 = Tentar fugir (nem sempre funciona)
 
+📊 Status do personagem: 
+
+HP (Vida): Se chegar a 0, você morre e o jogo acaba.
+
+ATK (Ataque): Define o dano que você causa.
+
+XP (Experiência): Acumule para subir de nível.
+
+Nível: Quanto maior, mais forte você fica.
+
 ## Instruções detalhadas de instalação, incluindo requisitos e dependências:
 
 O código não usa bancos de dados ou arquivos externos (todos os dados são armazenados em variáveis/dicionários).
