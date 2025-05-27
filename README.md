@@ -22,7 +22,7 @@ De vila em vila, aceita qualquer contrato, desde caçar bandidos até lidar com 
 
 Certo dia, você entrou em um bar no centro da cidade, onde ouviu uma história sobre um tesouro secreto capaz de mudar sua vida para sempre. a história era mais ou menos assim...
 
-## Manual de como jogar, incluindo comandos disponíveis:
+## 📜 Manual de como jogar, incluindo comandos disponíveis:
 
 🎮 COMO JOGAR:
 
