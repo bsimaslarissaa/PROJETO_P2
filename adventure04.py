@@ -1,4 +1,4 @@
-Loimport time
+import time
 import random
 from colorama import init, Fore, Back, Style # antes de rodar o código, instale o colorama: pip install colorama
 init(autoreset=True)
