@@ -251,7 +251,7 @@ def interacao_balconista():
         escrever_texto("- ao ouvir sobre os tesouros, voce começa a se interessar pela história\n", Fore.GREEN, 0.05)
 
         escrever_texto("\n-Balconista João: Só de te olhar já deu pra ver que você seria capaz de encarar essa aventura.\n", Fore.BLUE, 0.05)
-    escrever_texto("\n-Balconista: Então, o que você me diz, caçador de recompensas? Tem coragem de entrar explorar essa caverna?\n", Fore.BLUE, 0.05)
+    escrever_texto("\n-Balconista: Então, o que você me diz, caçador de recompensas? Tem coragem de entrar e explorar essa caverna?\n", Fore.BLUE, 0.05)
     escrever_texto("\nDigite 1 para aceitar o desafio ou 0 para ignorar e sair do bar.\nsua escolha: ", Fore.RED, 0.05)
     escolha = input("")
 
