@@ -189,5 +189,42 @@ Atualiza os status do personagem.
 
 ![loja](https://github.com/user-attachments/assets/8caa2aa1-afce-4b7e-a457-ae9214847541)
 
+4. Combate contra o lobo:
+
+Turnos: Atacar (1) ou Fugir (0).
+
+Dano calculado com ATK + randint(0, 2).
+
+Derrotar o lobo dá 10 XP
+
+![lobo](https://github.com/user-attachments/assets/9f0a27a4-8902-43b5-aa3e-77857eabfc46)
+
+5. Entrada da Caverna (Dragão):
+
+Combate similar ao do lobo, mas com mais dano.
+
+Derrotar o dragão dá 25 XP e acesso ao tesouro.
+
+![dragao](https://github.com/user-attachments/assets/47652e3f-5347-4b68-9f7d-a18e615cb817)
+
+6. Conquista do Tesouro e Encontro com bandido:
+   
+Diálogo:
+
+Isaac tenta roubar o tesouro.
+
+Opção de perguntar quem ele é ou ficar em silêncio.
+
+Combate:
+
+Derrotá-lo dá 15 XP e finaliza o jogo com sucesso.
+
+![bandido](https://github.com/user-attachments/assets/78629925-caf3-4fa7-89a4-8c80b4dbc6a6)
+
+   
+
+
+
+
 
 
