@@ -155,19 +155,18 @@ Cintia Mendes:
 ## 📜 Screenshots do jogo em funcionamento (com explicações):
 
 1. Tela de criação do personagem:
-   
-   ![personagem](https://github.com/user-attachments/assets/7b2e670d-6041-4bab-bd55-2de77a724901)
-
+2. 
 O jogo pede o nome do personagem.
 
 Mostra status iniciais (HP: 10, ATK: 2, Nível: 1).
 
 Oferece opção de ver a introdução ou pular.
-
-2. Cena do Bar:
    
-![bar](https://github.com/user-attachments/assets/8e14b4f2-823c-4b7c-adf6-cb5d8643162c)
+   ![personagem](https://github.com/user-attachments/assets/7b2e670d-6041-4bab-bd55-2de77a724901)
 
+
+3. Cena do Bar:
+   
 Balconista João conta sobre a caverna do tesouro.
 
 Opções:
@@ -175,11 +174,11 @@ Opções:
 1 para ouvir a história.
 
 0 para ignorar (mas a história é contada de qualquer forma).
+   
+![bar](https://github.com/user-attachments/assets/8e14b4f2-823c-4b7c-adf6-cb5d8643162c)
 
 3. Loja de Equipamentos:
-   
-![loja](https://github.com/user-attachments/assets/8caa2aa1-afce-4b7e-a457-ae9214847541)
-
+    
 Escolha:
 
 Espada de Ferro (+3 ATK) ou Malha de Ferro (+10 HP).
@@ -187,4 +186,8 @@ Espada de Ferro (+3 ATK) ou Malha de Ferro (+10 HP).
 Efeito:
 
 Atualiza os status do personagem.
+
+![loja](https://github.com/user-attachments/assets/8caa2aa1-afce-4b7e-a457-ae9214847541)
+
+
 
