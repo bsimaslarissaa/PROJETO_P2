@@ -151,6 +151,7 @@ Cintia Mendes:
 
 2. Inseriu ASCII arts ( com participação, do Jhean ).
 
+3. Ganhar XP para subir o nível.
 
 ## 📜 Screenshots do jogo em funcionamento (com explicações):
 
