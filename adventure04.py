@@ -1,4 +1,4 @@
-import time
+Loimport time
 import random
 from colorama import init, Fore, Back, Style # antes de rodar o código, instale o colorama: pip install colorama
 init(autoreset=True)
@@ -661,3 +661,7 @@ def conquista_do_tesouro():
                escrever_texto("\nVocê foi derrotado por Isaac, e teve seu tesouro roubado... Fim do jogo.", Fore.GREEN, 0.03)
                exit() 
 
+# Iniciar o jogo
+criacao_personagem()
+interacao_balconista()
+cena_loja()
