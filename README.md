@@ -164,3 +164,15 @@ Mostra status iniciais (HP: 10, ATK: 2, Nível: 1).
 
 Oferece opção de ver a introdução ou pular.
 
+2. Cena do Bar:
+   
+![bar](https://github.com/user-attachments/assets/8e14b4f2-823c-4b7c-adf6-cb5d8643162c)
+
+Balconista João conta sobre a caverna do tesouro.
+
+Opções:
+
+1 para ouvir a história.
+
+0 para ignorar (mas a história é contada de qualquer forma).
+
