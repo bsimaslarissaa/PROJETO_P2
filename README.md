@@ -155,7 +155,7 @@ Cintia Mendes:
 ## 📜 Screenshots do jogo em funcionamento (com explicações):
 
 1. Tela de criação do personagem:
-2. 
+ 
 O jogo pede o nome do personagem.
 
 Mostra status iniciais (HP: 10, ATK: 2, Nível: 1).
@@ -165,7 +165,7 @@ Oferece opção de ver a introdução ou pular.
    ![personagem](https://github.com/user-attachments/assets/7b2e670d-6041-4bab-bd55-2de77a724901)
 
 
-3. Cena do Bar:
+2. Cena do Bar:
    
 Balconista João conta sobre a caverna do tesouro.
 
