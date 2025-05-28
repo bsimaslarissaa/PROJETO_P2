@@ -143,7 +143,13 @@ Jhean Monteiro:
 
 Lorenzo: 
 
-1. Contribiu no código adicionando o combate contra o bandido. 
+1. Contribiu no código adicionando o combate contra o bandido.
+
+Cintia Mendes: 
+
+1. Contribiu com o combate contra o lobo.
+
+2. Inseriu ASCII arts ( com participação, do Jhean ).
 
 
 ## 📜 Screenshots do jogo em funcionamento (com explicações):
