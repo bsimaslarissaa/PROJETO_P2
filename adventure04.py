@@ -654,8 +654,7 @@ def conquista_do_tesouro():
             personagem["HP"] -= Isaac["ATK"]
             if personagem["HP"] > 0:
                escrever_texto("\nVocê derrotou Isaac! O tesouro continua em sua posse!\n", Fore.RED, 0.03)
-               ganhar_xp(15)  
-               mostra_status()
+               ganhar_xp(15)
                escrever_texto("\nVocê Chegou ao Final do Jogo! Parabéns! ") 
                exit()
             else:
