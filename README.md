@@ -176,3 +176,15 @@ Opções:
 
 0 para ignorar (mas a história é contada de qualquer forma).
 
+3. Loja de Equipamentos:
+   
+![loja](https://github.com/user-attachments/assets/8caa2aa1-afce-4b7e-a457-ae9214847541)
+
+Escolha:
+
+Espada de Ferro (+3 ATK) ou Malha de Ferro (+10 HP).
+
+Efeito:
+
+Atualiza os status do personagem.
+
