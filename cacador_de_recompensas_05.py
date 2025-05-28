@@ -590,7 +590,7 @@ def conquista_do_tesouro():
 
     escrever_texto("\nNo seu caminho de volta, você repara sons estranhos vindo dos arbustos e das árvores.", Fore.GREEN, 0.05)
 
-    escrever_texto("\nQuando você para de caminhar, esperando as presença te observando mostrar sua face, um homem aparece em sua frente.", Fore.GREEN, 0.05)
+    escrever_texto("\nQuando você para de caminhar, esperando a presença te observando mostrar sua face, um homem aparece em sua frente.", Fore.GREEN, 0.05)
 
     
     escrever_texto("\nBandido: Quem diria. Conseguiu notar minha prensença. Estou impressionado.", Fore.BLUE, 0.06)
@@ -642,7 +642,7 @@ def conquista_do_tesouro():
        
         escrever_texto("\n-Bandido Isaac: Me chamo Isaac. Eu recebi informação de que alguém foi enfrentar o dragão de uma caverna próxima.", Fore.BLUE, 0.05)
         
-        escrever_texto(" - Imagine a minha surpresa quando eu vi o corpo morto do dragão perto da entrada. Quem não usarua tal oportunidade para pegar o tesouro das mãos do vitorioso quando ferido?\n", Fore.BLUE, 0.05)
+        escrever_texto(" - Imagine a minha surpresa quando eu vi o corpo morto do dragão perto da entrada. Quem não usaria tal oportunidade para pegar o tesouro das mãos do vitorioso quando ferido?\n", Fore.BLUE, 0.05)
        
         escrever_texto("\n-Bandido Isaac: Desculpa, cara. Não é nada pessoal. Eu simplemsmente não posso deixar essa oportunidade passar.\n", Fore.BLUE, 0.05)
 
@@ -675,7 +675,7 @@ def conquista_do_tesouro():
             personagem["HP"] -= Isaac["ATK"]
     
     if personagem["HP"] > 0:
-        escrever_texto("\nVocê derrotou Isaac! O tesouro continua em sua posse!\n", Fore.RED, 0.03)
+        escrever_texto("\nVocê derrotou Isaac! O tesouro continua em sua posse! Parabéns campeão!\n", Fore.RED, 0.03)
         ganhar_xp(15)  
     else:
         escrever_texto("\nVocê foi derrotado por Isaac, e teve seu tesouro roubado... Fim do jogo.", Fore.GREEN, 0.03)
